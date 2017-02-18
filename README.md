@@ -99,15 +99,7 @@ The input has one word in the set per line. In the output, put one word that mee
 #### 4) Best Fit
 
 OVERVIEW
-Given a list of `x` and `y` coordinates, produce the [least-squares best fit line](http://mathworld.wolfram.com/LeastSquaresFitting.<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
-<body>
-
-</body>
-</html>).
+Given a list of `x` and `y` coordinates, produce the [least-squares best fit line](http://mathworld.wolfram.com/LeastSquaresFitting.html).
 
 The input has one coordinate pair per line separated by a space.
 
