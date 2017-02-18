@@ -55,9 +55,9 @@ OVERVIEW
 Given a positive integer, π(x) is the number of prime numbers less than or equal to x.
 
 For example:
-π(2) = 1
-π(10) = 4
-π(1000) = 168
+* π(2) = 1
+* π(10) = 4
+* π(1000) = 168
 
 The input has one value of x per line. You can expect x to be no greater than 1000. In the output, put one integer result per line.
 
@@ -67,8 +67,8 @@ OVERVIEW
 Given an expression in [prefix notation](https://en.wikipedia.org/wiki/Polish_notation), output the integer value.
 
 For example:
-+34 = 7
-+5*34 = 12
+* +34 = 7
+* +5*34 = 12
 
 The input has one expression per line. You can expect values between 0-9 (i.e. no numbers of multiple digits). Output one integer per line.
 
@@ -78,19 +78,19 @@ OVERVIEW
 Given a list of words, return all words that are _not_ compound and _not_ a part of a compound in the set. A compound word is a combination of two or more words in the set of words provided.
 
 For example, if the set of words is:
-'''
+```
 cat
 dog
 catdog
 some
 sometimes
-'''
+```
 
 The output would be:
-'''
+```
 some
 sometimes
-'''
+```
 
 Note that while `some` is a part of `sometimes`, `sometimes` is not a compound word because it is not a combination of two or more words in the set.
 
@@ -108,7 +108,6 @@ Your output the ratio of `b/m`, when the equation is in the form:
 y = mx + b
 ``` 
 * Truncate (not round!) your answer to three (3) decimal places.
-* Do not include a leading zero before the decimal for a number between 0 and 1 (i.e. .456, not 0.456)
 * Include a negative sign (-) in front if necessary.
 
 #### 5) Prime XML (from Google)
@@ -142,12 +141,12 @@ The input has one positive integer per line. In the output, put each factor tree
 OVERVIEW
 Given a spelled out integer between 0 and 999,999, your program will print out the numerical value of the number. There may or may not be commas and the word "and" in the standard places.
 
-zero = 0
-eighty-six = 86
-one hundred and one = 101
-nine hundred and ninety-nine = 999
-three thousand, three hundred and thirty-three = 3333
-nine hundred thousand, one hundred and eleven = 900111
-nine hundred thousand and eleven = 900011
+* zero = 0
+* eighty-six = 86
+* one hundred and one = 101
+* nine hundred and ninety-nine = 999
+* three thousand, three hundred and thirty-three = 3333
+* nine hundred thousand, one hundred and eleven = 900111
+* nine hundred thousand and eleven = 900011
 
 The input has one spelled out integer per line. In the output, put each numerical value on it's own line.
