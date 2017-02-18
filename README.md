@@ -116,6 +116,7 @@ y = mx + b
 OVERVIEW
 Given a positive integer, you will create a factor tree in a simple HTML/XML-like format.  For example, if the input was 2002 = 2 * 7 * 11 * 13, the correct output is:
 
+'''xml
 <composite value="2002">
   <prime value="2">
   </prime>
@@ -130,6 +131,7 @@ Given a positive integer, you will create a factor tree in a simple HTML/XML-lik
     </composite>
   </composite>
 </composite>
+'''
 
 Each node must have 0 or 2 children.  A composite node's first child must be the smallest prime that divides into it.  Each line must be indented 2 spaces more than its parent.  No inputs will have prime factors larger than 40.
 
